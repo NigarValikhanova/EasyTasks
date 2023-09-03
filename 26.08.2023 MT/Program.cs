@@ -136,71 +136,7 @@
 
             #endregion
 
-            #region Task5
-            //List<int> Numbers = new List<int>();
 
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    Console.Write("Enter a number: ");
-            //    int number = Convert.ToInt32(Console.ReadLine());
-            //    Numbers.Add(number);
-            //}
-            //if (Numbers.Count >= 10)
-            //{
-            //    for (int i = 0; i < 5; i++)
-            //    {
-            //        int temp = Numbers[i];
-            //        Numbers[i] = Numbers[Numbers.Count - 5 + i];
-            //        Numbers[Numbers.Count - 5 + i] = temp;
-            //    }
-
-            //    Console.WriteLine("List after swapping:");
-            //    foreach (int num in Numbers)
-            //    {
-            //        Console.Write(num + " ");
-            //    }
-
-            #endregion
-
-            #region Task6
-
-            //SortedSet<int> uniqueSortedNumbers = new SortedSet<int>();
-
-            //// Step b: Fill the collection with different numbers
-            //Console.WriteLine("Enter unique numbers (sorted) to fill the collection:");
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    int number;
-            //    while (true)
-            //    {
-            //        Console.Write($"Enter number {i + 1}: ");
-            //        if (int.TryParse(Console.ReadLine(), out number))
-            //        {
-            //            if (!uniqueSortedNumbers.Contains(number))
-            //            {
-            //                uniqueSortedNumbers.Add(number);
-            //                break;
-            //            }
-            //            else
-            //            {
-            //                Console.WriteLine("Number already exists in the collection. Please enter a different number.");
-            //            }
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("Invalid input. Please enter a valid number.");
-            //        }
-            //    }
-            //}
-
-            //// Step c: Print the result to the screen
-            //Console.WriteLine("Collection contents:");
-            //foreach (int num in uniqueSortedNumbers)
-            //{
-            //    Console.Write(num + " ");
-            //}
-
-            #endregion
         }
         //static bool IsPalindrome(string word)
         //    {
